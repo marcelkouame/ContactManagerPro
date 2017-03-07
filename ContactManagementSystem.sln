@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactManagementSystem", "ContactManagementSystem\ContactManagementSystem.csproj", "{C8172826-5FC0-4461-8910-B044230DBAC0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8BA0C886-FBC0-4283-AE92-2E863AACE03D} = {8BA0C886-FBC0-4283-AE92-2E863AACE03D}
+		{685719AD-3295-4F15-BA06-BD73F269EC05} = {685719AD-3295-4F15-BA06-BD73F269EC05}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactManagementSystemDL", "ContactManagementSystemDL\ContactManagementSystemDL.csproj", "{D08A01AE-F265-4033-B576-0585C49B91E1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{685719AD-3295-4F15-BA06-BD73F269EC05} = {685719AD-3295-4F15-BA06-BD73F269EC05}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactManagementSystemBL", "ContactManagementSystemBL\ContactManagementSystemBL.csproj", "{8BA0C886-FBC0-4283-AE92-2E863AACE03D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactManagementSystemEntities", "ContactManagementSystemEntities\ContactManagementSystemEntities.csproj", "{685719AD-3295-4F15-BA06-BD73F269EC05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8172826-5FC0-4461-8910-B044230DBAC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8172826-5FC0-4461-8910-B044230DBAC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8172826-5FC0-4461-8910-B044230DBAC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8172826-5FC0-4461-8910-B044230DBAC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D08A01AE-F265-4033-B576-0585C49B91E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D08A01AE-F265-4033-B576-0585C49B91E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D08A01AE-F265-4033-B576-0585C49B91E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D08A01AE-F265-4033-B576-0585C49B91E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BA0C886-FBC0-4283-AE92-2E863AACE03D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BA0C886-FBC0-4283-AE92-2E863AACE03D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BA0C886-FBC0-4283-AE92-2E863AACE03D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BA0C886-FBC0-4283-AE92-2E863AACE03D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{685719AD-3295-4F15-BA06-BD73F269EC05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{685719AD-3295-4F15-BA06-BD73F269EC05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{685719AD-3295-4F15-BA06-BD73F269EC05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{685719AD-3295-4F15-BA06-BD73F269EC05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="ContactManagementSystemDB" Class="ContactManagementSystemDBMLDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=trovisto-tech\sqlexpress;Initial Catalog=ContactManagementSystemDB;Integrated Security=True" SettingsObjectName="ContactManagementSystem.Properties.Settings" SettingsPropertyName="ContactManagementSystemDBConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.GetContacts" Method="GetContacts">
+    <ElementType Name="GetContactsResult">
+      <Column Name="ContactID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FirstName" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="LastName" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="Title" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Company" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Telephone" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.InsertContact" Method="InsertContact">
+    <Parameter Name="FirstName" Parameter="firstName" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="LastName" Parameter="lastName" Type="System.String" DbType="VarChar(30)" />
+    <Parameter Name="Title" Parameter="title" Type="System.String" DbType="VarChar(30)" />
+    <Parameter Name="Company" Parameter="company" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Email" Parameter="email" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Telephone" Parameter="telephone" Type="System.String" DbType="VarChar(20)" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>
